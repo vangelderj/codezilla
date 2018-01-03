@@ -1,44 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
-    <meta name="dcterms.created" content="wo, 27 dec 2017 10:52:23 GMT">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-	<img src="jvg.jpg">
-    <title>pop</title>
-    <body bgcolor= "#800080">   
-  <TABLE BORDER="1" bgcolor="#9370DB"></h1><h5><font color="#FFFFF0">27-12-2017</h5>
-  <h1><font color= "#BA55D3">Persoonlijk Ontwikkelings Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Johan van Gelder</h1>
-<TR><TH>Huidige situatie</TH><TH>Top 5 vaardigheden</TH> <TH>5 belangrijke waarden</TH><TH>Top 5 sterke kanten</TH></TR>
-<TD><br><br>Werkzaam in de media en beveiliging<br>
-publicist/journalistiek, uitgever<br>
-persoonsbeveiliging, objectbeveiliging</TD>
-<TD><br>Journalistiek, grafische vormgeving, beveiliging,<br>
-organiseren, co&#246;rdineren</TD>
-<TD><br>Vertrouwen, loyaliteit, motivatie,<br>
-doorzettingsvermogen, inzicht
-</TD> 
-<TD><br>Preventief, samenwerken, dienstverlening,<br>
-voorkomend, pro-actief</TD> 
-<TR> <TH><b>5 aandachtsgebieden:</b></TH><TH>5 prioriteiten</TH> <TH>5 voorkeuren </TH><TH>Interesse beroepen</TH></TR>
-<TD><br><br>Opbouwende kritiek accepteren,<br>
-geduld oefenen, focus op studie,<br>
-focus op opdrachten,<br>
-Te weinig betaalde arbeidsuren <br>omzetten in meer betaalde arbeidsuren</TD>
-<TD>Sociale media, public relations, netwerken,<br>
-constructief, stabiel</TD>
-<TD><br>Nieuwe werkomgeving, duurzaamheid, <br>informele werksfeer,
-verbetering salaris, <br>omscholing, uitdagingen aangaan</TD>
-<TD>Apps ontwikkelen, websites/winkels bouwen, <br>
-communicatie, content management, digitaal redacteur</TD>
-<TR><TH>Vaardigheden en ervaring om dit te bereiken</TH><TH>Actieplan</TH></TR>
- <TD>Basiskennis HTML, Javascript,<br>bouwen websites, teksten schrijven, fotografie<br></TD>
-  <TD><b>Twee doelen:</b><br>
-  Kennis programmeertalen vergroten,<br>toepassing programmeertalen</TD>
-  <TD BGCOLOR="black"></TD>
-  <TD BGCOLOR="black"></TD>
- </body>
- </TABLE>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simple JavaScript Address Book</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id="navigation">
+    <ul class="nav-list">
+        <li id="js-show-all">Show all Contacts</li>
+        <li id="js-search">Search</li>
+        <li id="js-add-new">Add New Contact</li>
+    </ul>
+</div>
+<div id="search-panel" class="panel">
+    <h1>Search Contacts</h1>
+    <form id="search" action="#">
+        <div id="results">
+          
+      </div>
+        <div>
+            <label>
+                <input type="text" name="search" id="search" placeholder="Enter name of contact" />
+            </label>
+        </div>
+                <input type="submit" value="Submit" />
+    </form>
+</div>
+    <div id="contact-panel" class="panel">
+        <form id="contact" action="#">
+            <h1>Add a new contact</h1>
+            <div>
+                <label>
+                    <input type="text" name="person" id="name" placeholder="John Smith" />
+                </label>
+                <label>
+                    <input type="text" name="phone" id="name" placeholder="1234567" />
+                </label>
+                <label>
+                    <input type="text" name="email" id="name" placeholder="john@example.com" />
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+<div id = "show-panel" class="panel">
+  
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>
